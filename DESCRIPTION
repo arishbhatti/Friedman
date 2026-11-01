@@ -1,0 +1,15 @@
+Package: Friedman
+Title: Data Relationship Explorer
+Version: 0.0.0.9000
+Authors@R: 
+    person("Arish", "Bhatti", email = "arish.bhatti@gmail.com", role = c("aut", "cre"))
+Description: A simple package meant to assist with exploring variable relationships within datasets.
+             This package includes functions for identifying correlations, locating relationships within data based on correlation strength,
+             creating scatter plots, and examining results.
+Depends: R (>= 3.1.2)
+Imports: ggplot2, rlang
+License: CC0
+LazyData: false
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
